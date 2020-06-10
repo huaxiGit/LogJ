@@ -41,26 +41,22 @@ public class ShiroConfig {
          */
         //LinhedHashMap为了保证顺序
         Map<String,String> filterMap =new LinkedHashMap<String,String>();
-      /*  filterMap.put("/user/add", "authc");
-        filterMap.put("/user/updata", "authc");*/
-        filterMap.put("/user/test","anon");
-        filterMap.put("/user/login","anon");
+
+       //我先关闭
+
+       // filterMap.put("/user/test","anon");
+      //  filterMap.put("/user/login","anon");
 
         //授权过滤器必须反正拦截器上面否则无效
         // 注意：当前授权拦截后，shiro会自动跳转到未授权页面
-        filterMap.put("/user/add", "perms[user:add]");
+       // filterMap.put("/user/add", "perms[user:add]");
 
-        filterMap.put("/user/*","authc");
-
-
-
-
-
+       // filterMap.put("/user/*","authc");
 
         //被拦截都跳转这
-        shiroFilterFactoryBean.setLoginUrl("/user/toLogin");
+        //shiroFilterFactoryBean.setLoginUrl("/user/toLogin");
         //设置未授权提示页面
-        shiroFilterFactoryBean.setUnauthorizedUrl("/user/noAuth");
+      //  shiroFilterFactoryBean.setUnauthorizedUrl("/user/noAuth");
 
 
         //拦截
