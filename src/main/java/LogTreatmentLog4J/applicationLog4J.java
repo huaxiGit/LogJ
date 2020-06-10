@@ -12,4 +12,5 @@ public class applicationLog4J {
         SpringApplication.run(applicationLog4J.class, args);
     }
 
+
 }

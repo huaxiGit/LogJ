@@ -28,6 +28,7 @@ public class UserController {
     @RequestMapping("user")
     @ResponseBody
     public List<User> user5(){
+        int a;
         return userSerivce.seleectUseridD();
     }
 
