@@ -29,6 +29,7 @@ public class UserController {
     @ResponseBody
     public List<User> user5(){
         int a;
+        int b;
         return userSerivce.seleectUseridD();
     }
 
