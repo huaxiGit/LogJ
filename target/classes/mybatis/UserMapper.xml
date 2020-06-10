@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="LogTreatmentLog4J.cemvc.Mapper.UserMapper">
+
+    <select id="selectUserIdd"  resultType="User">
+       SELECT user_id,user_name,user_age FROM user_na
+    </select>
+    <select id="selectUserPass" parameterType="String"  resultType="User">
+      SELECT a.user_id,a.user_name,a.user_password,b.auth_sou FROM user_na a,auth_user b WHERE a.user_id=b.user_id AND a.user_name=#{username}
+    </select>
+
+
+
+
+</mapper>

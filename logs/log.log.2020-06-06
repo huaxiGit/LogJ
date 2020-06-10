@@ -1,0 +1,28 @@
+2020-06-06 11:41:09,145 INFO [LogTreatmentLog4J.MyTest] - slf4j for info
+2020-06-06 11:41:09,146 ERROR [LogTreatmentLog4J.MyTest] - slf4j for error
+2020-06-06 11:41:09,147 WARN [LogTreatmentLog4J.MyTest] - slf4j for warn
+2020-06-06 11:41:09,150 INFO [LogTreatmentLog4J.MyTest] - slf4j message is : Hello SLF4J
+2020-06-06 16:15:50,580 INFO [LogTreatmentLog4J.MyTest] - 1232133321
+2020-06-06 16:15:50,581 INFO [LogTreatmentLog4J.MyTest] - slf4j for info
+2020-06-06 16:15:50,581 ERROR [LogTreatmentLog4J.MyTest] - slf4j for error
+2020-06-06 16:15:50,581 WARN [LogTreatmentLog4J.MyTest] - slf4j for warn
+2020-06-06 16:15:50,588 INFO [LogTreatmentLog4J.MyTest] - slf4j message is : Hello SLF4J
+2020-06-06 16:15:50,588 INFO [LogTreatmentLog4J.MyTest] - slf4j message is id=Hello SLF4J,massage={}
+2020-06-06 16:15:56,590 INFO [LogTreatmentLog4J.MyTest] - 1232133321
+2020-06-06 16:15:56,591 INFO [LogTreatmentLog4J.MyTest] - slf4j for info
+2020-06-06 16:15:56,591 ERROR [LogTreatmentLog4J.MyTest] - slf4j for error
+2020-06-06 16:15:56,591 WARN [LogTreatmentLog4J.MyTest] - slf4j for warn
+2020-06-06 16:15:56,595 INFO [LogTreatmentLog4J.MyTest] - slf4j message is : Hello SLF4J
+2020-06-06 16:15:56,595 INFO [LogTreatmentLog4J.MyTest] - slf4j message is id=Hello SLF4J,massage={}
+2020-06-06 16:16:44,726 INFO [LogTreatmentLog4J.MyTest] - 1232133321
+2020-06-06 16:16:44,727 INFO [LogTreatmentLog4J.MyTest] - slf4j for info
+2020-06-06 16:16:44,727 ERROR [LogTreatmentLog4J.MyTest] - slf4j for error
+2020-06-06 16:16:44,727 WARN [LogTreatmentLog4J.MyTest] - slf4j for warn
+2020-06-06 16:16:44,730 INFO [LogTreatmentLog4J.MyTest] - slf4j message is : Hello SLF4J
+2020-06-06 16:16:44,731 INFO [LogTreatmentLog4J.MyTest] - slf4j message is id=String zanweihu,massage={}
+2020-06-06 16:17:36,137 INFO [LogTreatmentLog4J.MyTest] - 1232133321
+2020-06-06 16:17:36,138 INFO [LogTreatmentLog4J.MyTest] - slf4j for info
+2020-06-06 16:17:36,138 ERROR [LogTreatmentLog4J.MyTest] - slf4j for error
+2020-06-06 16:17:36,138 WARN [LogTreatmentLog4J.MyTest] - slf4j for warn
+2020-06-06 16:17:36,142 INFO [LogTreatmentLog4J.MyTest] - slf4j message is : Hello SLF4J
+2020-06-06 16:17:36,142 INFO [LogTreatmentLog4J.MyTest] - slf4j message is id=Hello SLF4J,massage=String zanweihu
