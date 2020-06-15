@@ -3,6 +3,9 @@ package LogTreatmentLog4J.cemvc.Controller;
 import LogTreatmentLog4J.cemvc.Serivce.UserSerivce;
 import LogTreatmentLog4J.cemvc.Serivce.UserSerivceimpl;
 import LogTreatmentLog4J.utill.User;
+import LogTreatmentLog4J.utill.swagger.swagg;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.IncorrectCredentialsException;
 import org.apache.shiro.authc.UnknownAccountException;
@@ -23,13 +26,16 @@ import java.util.List;
 public class UserController {
     @Autowired
     private UserSerivce userSerivce;
-
+    @ApiOperation("swagger这是测试接口")
+    @RequestMapping("/git")
+    public String gett(@ApiParam("这个名字会返回") String name){
+        return name;
+    }
 
     @RequestMapping("user")
     @ResponseBody
     public List<User> user5(){
-        int a;
-        int b;
+
         return userSerivce.seleectUseridD();
     }
 
