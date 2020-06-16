@@ -1,6 +1,7 @@
 package LogTreatmentLog4J.config.swagger;
 
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.env.Environment;
 import org.springframework.core.env.Profiles;
@@ -17,6 +18,7 @@ import java.util.LinkedHashSet;
 
 @Configuration
 @EnableSwagger2//开启swagger2的自动配置 http://localhost:10004/swagger-ui.html#/
+@ComponentScan("LogTreatmentLog4J.cemvc.Controller")
 public class AwaggerConfig {
     /**通过合并/覆盖用户指定的值来构建Docket。
      *
@@ -57,7 +59,7 @@ public class AwaggerConfig {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .groupName("hello") // 配置分组
-                .enable(false) //配置是否启用Swagger，如果是false，在浏览器将无法访问
+                .enable(true) //配置是否启用Swagger，如果是false，在浏览器将无法访问
                 .select()// 通过.select()方法，去配置扫描接口,RequestHandlerSelectors配置如何扫描接口
                 .apis(RequestHandlerSelectors.basePackage("LogTreatmentLog4J.cemvc.Controller"))
 
