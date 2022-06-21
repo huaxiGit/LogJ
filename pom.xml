@@ -73,7 +73,7 @@ spring-boot-starter-parent 是一个特殊的starter，它用来提供相关的M
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.21</version>
+            <version>8.0.28</version>
         </dependency>
         <!-- mybatis -->
         <dependency>
